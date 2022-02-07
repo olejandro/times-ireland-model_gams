@@ -1,0 +1,266 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'NO_MITIGATION'
+$SET SCENARIO_NAME 'b_rsd_unitboilers'
+
+
+SET UC_R_EACH
+/
+'IE'.'UC_RSD_Cookers'
+'IE'.'UC_RSD_UnitBoiler-HW_Apt'
+'IE'.'UC_RSD_UnitBoiler-HW_Att'
+'IE'.'UC_RSD_UnitBoiler-HW_Det'
+'IE'.'UC_RSD_UnitBoiler_SH-Apt'
+'IE'.'UC_RSD_UnitBoiler_SH-Att'
+'IE'.'UC_RSD_UnitBoiler_SH-Det'
+
+/
+
+PARAMETER
+UC_CAP ' '/
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_Apt' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_AptN1' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_Att' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_Att-N1' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_Det' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2018'.'R-BLD_Det-N1' -1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_ELC_N1' 1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_ELC_X0' 1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_GAS_N1' 1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_GAS_X0' 1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_LPG_N1' 1
+'UC_RSD_Cookers'.'LHS'.'IE'.'2019'.'R-RSDCK_LPG_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2018'.'R-BLD_Apt' -1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2018'.'R-BLD_AptN1' -1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_ELC_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HPN2' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_HET_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_HET_N2' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_KER_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_LPG_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_WOO_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_BDL_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_COA_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_ELC_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_ELC_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_ELC_X1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_ETH_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_GAS_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_HET_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_KER_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_LPG_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_PEA_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_SMF_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_SOL_N1' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_SOL_X0' 1
+'UC_RSD_UnitBoiler-HW_Apt'.'LHS'.'IE'.'2019'.'R-WH_Apt_WOO_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2018'.'R-BLD_Att' -1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2018'.'R-BLD_Att-N1' -1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_ELC_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_ELC_HPN2' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_FPL_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HPN2' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N2' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N3' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HET_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HET_N2' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HVO_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N2' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N3' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_LPG_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-SW_Att_WOO_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_BDL_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_COA_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_ELC_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_ELC_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_ELC_X1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_ETH_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_GAS_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_HET_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_KER_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_LPG_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_PEA_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_SMF_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_SOL_N1' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_SOL_X0' 1
+'UC_RSD_UnitBoiler-HW_Att'.'LHS'.'IE'.'2019'.'R-WH_Att_WOO_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2018'.'R-BLD_Det' -1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2018'.'R-BLD_Det-N1' -1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_ELC_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_ELC_HPN2' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_FPL_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HPN1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HPN2' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N2' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N3' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HET_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HET_N2' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HVO_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N2' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N3' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_LPG_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-SW_Det_WOO_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_BDL_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_COA_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_ELC_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_ELC_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_ELC_X1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_ETH_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_GAS_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_HET_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_KER_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_LPG_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_PEA_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_SMF_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_SOL_N1' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_SOL_X0' 1
+'UC_RSD_UnitBoiler-HW_Det'.'LHS'.'IE'.'2019'.'R-WH_Det_WOO_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2018'.'R-BLD_Apt' -1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2018'.'R-BLD_AptN1' -1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-HC_Apt_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-HC_Apt_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_BDL_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_COA_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_HPN3' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ELC_X1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_ETH_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_GAS_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_HET_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_KER_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_LPG_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_PEA_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_SMF_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_WOO_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SH_Apt_WOO_X0' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_HET_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_HET_N2' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Apt'.'LHS'.'IE'.'2019'.'R-SW_Apt_WOO_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2018'.'R-BLD_Att' -1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2018'.'R-BLD_Att-N1' -1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-HC_Att_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-HC_Att_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_BDL_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_COA_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_HPN3' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ELC_X1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_ETH_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_GAS_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_HET_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_HVO_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_KER_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_LPG_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_PEA_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_SMF_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_WOO_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SH_Att_WOO_X0' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_GAS_N3' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HET_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HET_N2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_HVO_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N2' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_KER_N3' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Att'.'LHS'.'IE'.'2019'.'R-SW_Att_WOO_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2018'.'R-BLD_Det' -1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2018'.'R-BLD_Det-N1' -1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-HC_Det_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-HC_Det_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_BDL_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_COA_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_HPN3' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ELC_X1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_ETH_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_GAS_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_HET_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_HVO_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_KER_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_LPG_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_PEA_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_SMF_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_WOO_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SH_Det_WOO_X0' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_ELC_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_ELC_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HHPN1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HPN1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_HPN2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_GAS_N3' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HET_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HET_N2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_HVO_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N2' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_KER_N3' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_LPG_N1' 1
+'UC_RSD_UnitBoiler_SH-Det'.'LHS'.'IE'.'2019'.'R-SW_Det_WOO_N1' 1
+
+/
+PARAMETER
+UC_RHSRT ' '/
+'IE'.'UC_RSD_Cookers'.'0'.'FX' 5
+'IE'.'UC_RSD_Cookers'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler-HW_Apt'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler-HW_Apt'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler-HW_Att'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler-HW_Att'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler-HW_Det'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler-HW_Det'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler_SH-Apt'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler_SH-Apt'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler_SH-Att'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler_SH-Att'.'2019'.'FX' 0
+'IE'.'UC_RSD_UnitBoiler_SH-Det'.'0'.'FX' 5
+'IE'.'UC_RSD_UnitBoiler_SH-Det'.'2019'.'FX' 0
+
+/
+
+

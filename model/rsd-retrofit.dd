@@ -1,0 +1,127 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'NO_MITIGATION'
+$SET SCENARIO_NAME 'rsd-retrofit'
+
+
+SET UNITS_CAP
+/
+'000UNITS'
+
+/
+
+SET UNITS_ACT
+/
+'PJ'
+
+/
+
+SET PRC
+/
+'R-RTFT-Apt_Deep'
+'R-RTFT-Apt_Shallow'
+'R-RTFT-Att_Deep'
+'R-RTFT-Att_Shallow'
+'R-RTFT-Det_Deep'
+'R-RTFT-Det_Shallow'
+
+/
+
+SET PRC_MAP
+/
+'IE'.'PRE'.'R-RTFT-Apt_Deep'
+'IE'.'PRE'.'R-RTFT-Apt_Shallow'
+'IE'.'PRE'.'R-RTFT-Att_Deep'
+'IE'.'PRE'.'R-RTFT-Att_Shallow'
+'IE'.'PRE'.'R-RTFT-Det_Deep'
+'IE'.'PRE'.'R-RTFT-Det_Shallow'
+
+/
+
+SET PRC_TSL
+/
+'IE'.'R-RTFT-Apt_Deep'.'DAYNITE'
+'IE'.'R-RTFT-Apt_Shallow'.'DAYNITE'
+'IE'.'R-RTFT-Att_Deep'.'DAYNITE'
+'IE'.'R-RTFT-Att_Shallow'.'DAYNITE'
+'IE'.'R-RTFT-Det_Deep'.'DAYNITE'
+'IE'.'R-RTFT-Det_Shallow'.'DAYNITE'
+
+/
+
+SET PRC_ACTUNT
+/
+'IE'.'R-RTFT-Apt_Deep'.'RSDSH_Apt'.'PJ'
+'IE'.'R-RTFT-Apt_Shallow'.'RSDSH_Apt'.'PJ'
+'IE'.'R-RTFT-Att_Deep'.'RSDSH_Att'.'PJ'
+'IE'.'R-RTFT-Att_Shallow'.'RSDSH_Att'.'PJ'
+'IE'.'R-RTFT-Det_Deep'.'RSDSH_Det'.'PJ'
+'IE'.'R-RTFT-Det_Shallow'.'RSDSH_Det'.'PJ'
+
+/
+
+SET TOP
+/
+'IE'.'R-RTFT-Apt_Deep'.'RSDSH_Apt'.'OUT'
+'IE'.'R-RTFT-Apt_Shallow'.'RSDSH_Apt'.'OUT'
+'IE'.'R-RTFT-Att_Deep'.'RSDSH_Att'.'OUT'
+'IE'.'R-RTFT-Att_Shallow'.'RSDSH_Att'.'OUT'
+'IE'.'R-RTFT-Det_Deep'.'RSDSH_Det'.'OUT'
+'IE'.'R-RTFT-Det_Shallow'.'RSDSH_Det'.'OUT'
+
+/
+
+SET PRC_DESC
+/
+'IE'.'R-RTFT-Apt_Deep' 'Residential Apt - Deep retrofit'
+'IE'.'R-RTFT-Apt_Shallow' 'Residential Apt - Shallow retrofit'
+'IE'.'R-RTFT-Att_Deep' 'Residential Att - Deep retrofit'
+'IE'.'R-RTFT-Att_Shallow' 'Residential Att - Shallow retrofit'
+'IE'.'R-RTFT-Det_Deep' 'Residential Det - Deep retrofit'
+'IE'.'R-RTFT-Det_Shallow' 'Residential Det - Shallow retrofit'
+
+/
+
+PARAMETER
+NCAP_COST ' '/
+'IE'.'2018'.'R-RTFT-Apt_Deep'.'EUR18' 17.2661697717195
+'IE'.'2018'.'R-RTFT-Apt_Shallow'.'EUR18' 11.1964146916014
+'IE'.'2018'.'R-RTFT-Att_Deep'.'EUR18' 22.2946797976735
+'IE'.'2018'.'R-RTFT-Att_Shallow'.'EUR18' 9.60847358042052
+'IE'.'2018'.'R-RTFT-Det_Deep'.'EUR18' 24.1143567976615
+'IE'.'2018'.'R-RTFT-Det_Shallow'.'EUR18' 14.3338696466019
+
+/
+PARAMETER
+NCAP_START ' '/
+'IE'.'R-RTFT-Apt_Deep' 2020
+'IE'.'R-RTFT-Apt_Shallow' 2020
+'IE'.'R-RTFT-Att_Deep' 2020
+'IE'.'R-RTFT-Att_Shallow' 2020
+'IE'.'R-RTFT-Det_Deep' 2020
+'IE'.'R-RTFT-Det_Shallow' 2020
+
+/
+PARAMETER
+NCAP_TLIFE ' '/
+'IE'.'2018'.'R-RTFT-Apt_Deep' 50
+'IE'.'2018'.'R-RTFT-Apt_Shallow' 50
+'IE'.'2018'.'R-RTFT-Att_Deep' 50
+'IE'.'2018'.'R-RTFT-Att_Shallow' 50
+'IE'.'2018'.'R-RTFT-Det_Deep' 50
+'IE'.'2018'.'R-RTFT-Det_Shallow' 50
+
+/
+PARAMETER
+PRC_CAPACT ' '/
+'IE'.'R-RTFT-Apt_Deep' 0.00605375786281025
+'IE'.'R-RTFT-Apt_Shallow' 0.0034901289446216
+'IE'.'R-RTFT-Att_Deep' 0.0118653642268482
+'IE'.'R-RTFT-Att_Shallow' 0.00542635839407243
+'IE'.'R-RTFT-Det_Deep' 0.0209871113384572
+'IE'.'R-RTFT-Det_Shallow' 0.00958091856524129
+
+/
+
+
