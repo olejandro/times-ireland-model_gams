@@ -1,0 +1,38 @@
+$BATINCLUDE base.dd
+$BATINCLUDE pwr_dh.dd
+$BATINCLUDE pwr_newtechs.dd
+$BATINCLUDE rsd-retrofit.dd
+$BATINCLUDE rsd_newtechs.dd
+$BATINCLUDE srv_dc_excessheat.dd
+$BATINCLUDE srv_newtechs.dd
+$BATINCLUDE sup_biorefineries.dd
+$BATINCLUDE sup_hydrogen.dd
+$BATINCLUDE sys_othernewtechs.dd
+$BATINCLUDE tra_newvehicles.dd
+$BATINCLUDE syssettings.dd
+$BATINCLUDE b_sys_additional_assumptions.dd
+$BATINCLUDE b_sys_demands.dd
+$BATINCLUDE b_sup_dombiopot_baseline.dd
+$BATINCLUDE b_ind_emi_proc.dd
+$BATINCLUDE b_pwr_ccs.dd
+$BATINCLUDE b_srv_dc_eh.dd
+$BATINCLUDE b_sys_subannual_data.dd
+$BATINCLUDE b_pwr_rnw_potentials.dd
+$BATINCLUDE b_ind_emissions.dd
+$BATINCLUDE b_rsd_retrofit-ctrl.dd
+$BATINCLUDE b_rsd_uc.dd
+$BATINCLUDE b_srv_uc.dd
+$BATINCLUDE b_pwr_snsp.dd
+$BATINCLUDE b_sys_bio_delivcost.dd
+$BATINCLUDE b_sys_historic_bounds.dd
+$BATINCLUDE b_sys_maxgrowthrates.dd
+$BATINCLUDE b_rsd_unitboilers.dd
+$BATINCLUDE b_tra_p_modalshares.dd
+$BATINCLUDE b_tra_newcars_retirement.dd
+$BATINCLUDE b_tra_stock_retirement.dd
+$BATINCLUDE b_tra_emissions.dd
+$BATINCLUDE b_tra_ev_parity.dd
+$BATINCLUDE b_tra_f_modalshares.dd
+
+SET MILESTONYR /2018,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2035,2040,2045,2050,2055,2060,2065,2070/;
+$SET RUN_NAME 'No_Mitigation'
