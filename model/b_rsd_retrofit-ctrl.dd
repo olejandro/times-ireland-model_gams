@@ -14,45 +14,45 @@ SET UC_R_EACH
 'IE'.'UC_RSD_ShallowRetrofitCap-Att'
 'IE'.'UC_RSD_ShallowRetrofitCap-Det'
 
-/
+/;
 
 PARAMETER
 UC_CAP ' '/
-'UC_RSD_DeepRetrofitCap-Apt'.'LHS'.'IE'.'2018'.'R-RTFT-Apt_Deep' 1
-'UC_RSD_DeepRetrofitCap-Att'.'LHS'.'IE'.'2018'.'R-RTFT-Att_Deep' 1
-'UC_RSD_DeepRetrofitCap-Det'.'LHS'.'IE'.'2018'.'R-RTFT-Det_Deep' 1
-'UC_RSD_ShallowRetrofitCap-Apt'.'LHS'.'IE'.'2018'.'R-RTFT-Apt_Shallow' 1
-'UC_RSD_ShallowRetrofitCap-Att'.'LHS'.'IE'.'2018'.'R-RTFT-Att_Shallow' 1
-'UC_RSD_ShallowRetrofitCap-Det'.'LHS'.'IE'.'2018'.'R-RTFT-Det_Shallow' 1
+'UC_RSD_DeepRetrofitCap-Apt'.LHS.'IE'.2018.'R-RTFT-Apt_Deep' 1
+'UC_RSD_DeepRetrofitCap-Att'.LHS.'IE'.2018.'R-RTFT-Att_Deep' 1
+'UC_RSD_DeepRetrofitCap-Det'.LHS.'IE'.2018.'R-RTFT-Det_Deep' 1
+'UC_RSD_ShallowRetrofitCap-Apt'.LHS.'IE'.2018.'R-RTFT-Apt_Shallow' 1
+'UC_RSD_ShallowRetrofitCap-Att'.LHS.'IE'.2018.'R-RTFT-Att_Shallow' 1
+'UC_RSD_ShallowRetrofitCap-Det'.LHS.'IE'.2018.'R-RTFT-Det_Shallow' 1
 
-/
+/;
 PARAMETER
 UC_RHSRT ' '/
-'IE'.'UC_RSD_DeepRetrofitCap-Apt'.'0'.'UP' 5
-'IE'.'UC_RSD_DeepRetrofitCap-Apt'.'2018'.'UP' 0
-'IE'.'UC_RSD_DeepRetrofitCap-Apt'.'2030'.'UP' 46.0966987499678
-'IE'.'UC_RSD_DeepRetrofitCap-Apt'.'2070'.'UP' 76.8278312499464
-'IE'.'UC_RSD_DeepRetrofitCap-Att'.'0'.'UP' 5
-'IE'.'UC_RSD_DeepRetrofitCap-Att'.'2018'.'UP' 0
-'IE'.'UC_RSD_DeepRetrofitCap-Att'.'2030'.'UP' 186.13384375936
-'IE'.'UC_RSD_DeepRetrofitCap-Att'.'2070'.'UP' 310.223072932267
-'IE'.'UC_RSD_DeepRetrofitCap-Det'.'0'.'UP' 5
-'IE'.'UC_RSD_DeepRetrofitCap-Det'.'2018'.'UP' 0
-'IE'.'UC_RSD_DeepRetrofitCap-Det'.'2030'.'UP' 175.619963509455
-'IE'.'UC_RSD_DeepRetrofitCap-Det'.'2070'.'UP' 292.699939182426
-'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.'0'.'UP' 5
-'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.'2018'.'UP' 0
-'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.'2030'.'UP' 27.9786624410407
-'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.'2070'.'UP' 46.6311040684012
-'IE'.'UC_RSD_ShallowRetrofitCap-Att'.'0'.'UP' 5
-'IE'.'UC_RSD_ShallowRetrofitCap-Att'.'2018'.'UP' 0
-'IE'.'UC_RSD_ShallowRetrofitCap-Att'.'2030'.'UP' 134.016614671911
-'IE'.'UC_RSD_ShallowRetrofitCap-Att'.'2070'.'UP' 223.361024453185
-'IE'.'UC_RSD_ShallowRetrofitCap-Det'.'0'.'UP' 5
-'IE'.'UC_RSD_ShallowRetrofitCap-Det'.'2018'.'UP' 0
-'IE'.'UC_RSD_ShallowRetrofitCap-Det'.'2030'.'UP' 119.371718406789
-'IE'.'UC_RSD_ShallowRetrofitCap-Det'.'2070'.'UP' 198.952864011316
+'IE'.'UC_RSD_DeepRetrofitCap-Apt'.0.UP 5
+'IE'.'UC_RSD_DeepRetrofitCap-Apt'.2018.UP 0
+'IE'.'UC_RSD_DeepRetrofitCap-Apt'.2030.UP 46.0966987499678
+'IE'.'UC_RSD_DeepRetrofitCap-Apt'.2070.UP 76.8278312499464
+'IE'.'UC_RSD_DeepRetrofitCap-Att'.0.UP 5
+'IE'.'UC_RSD_DeepRetrofitCap-Att'.2018.UP 0
+'IE'.'UC_RSD_DeepRetrofitCap-Att'.2030.UP 186.13384375936
+'IE'.'UC_RSD_DeepRetrofitCap-Att'.2070.UP 310.223072932267
+'IE'.'UC_RSD_DeepRetrofitCap-Det'.0.UP 5
+'IE'.'UC_RSD_DeepRetrofitCap-Det'.2018.UP 0
+'IE'.'UC_RSD_DeepRetrofitCap-Det'.2030.UP 175.619963509455
+'IE'.'UC_RSD_DeepRetrofitCap-Det'.2070.UP 292.699939182426
+'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.0.UP 5
+'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.2018.UP 0
+'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.2030.UP 27.9786624410407
+'IE'.'UC_RSD_ShallowRetrofitCap-Apt'.2070.UP 46.6311040684012
+'IE'.'UC_RSD_ShallowRetrofitCap-Att'.0.UP 5
+'IE'.'UC_RSD_ShallowRetrofitCap-Att'.2018.UP 0
+'IE'.'UC_RSD_ShallowRetrofitCap-Att'.2030.UP 134.016614671911
+'IE'.'UC_RSD_ShallowRetrofitCap-Att'.2070.UP 223.361024453185
+'IE'.'UC_RSD_ShallowRetrofitCap-Det'.0.UP 5
+'IE'.'UC_RSD_ShallowRetrofitCap-Det'.2018.UP 0
+'IE'.'UC_RSD_ShallowRetrofitCap-Det'.2030.UP 119.371718406789
+'IE'.'UC_RSD_ShallowRetrofitCap-Det'.2070.UP 198.952864011316
 
-/
+/;
 
 
