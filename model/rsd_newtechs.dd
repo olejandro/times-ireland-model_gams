@@ -13,7 +13,7 @@ SET UNITS_COM
 
 SET UNITS_CAP
 /
-'000UNITS'
+'000units'
 'GW'
 
 /;
