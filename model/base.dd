@@ -303,17 +303,17 @@ SET TS_MAP
 
 SET UNITS
 /
-'000_UNITS'
-'000UNITS'
+'000_Units'
+'000units'
 'GW'
-'KTA'
-'KUNITS'
-'MHA'
-'MHEAD'
-'MLAMPS'
-'MM2'
-'MUNITS'
-'PJA'
+'kta'
+'kunits'
+'Mha'
+'Mhead'
+'Mlamps'
+'Mm2'
+'Munits'
+'PJa'
 
 /;
 
@@ -401,15 +401,15 @@ SET UNITS_COM
 
 SET UNITS_CAP
 /
-'000UNITS'
+'000units'
 'GW'
-'KUNITS'
-'MHA'
-'MHEAD'
-'MLAMPS'
-'MM2'
-'MUNITS'
-'PJA'
+'kUnits'
+'Mha'
+'Mhead'
+'Mlamps'
+'Mm2'
+'Munits'
+'PJa'
 
 /;
 
