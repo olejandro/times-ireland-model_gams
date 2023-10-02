@@ -7,8 +7,8 @@ $SET SCENARIO_NAME 'sys_othernewtechs'
 
 SET UNITS_CAP
 /
-'KTA'
-'PJA'
+'kta'
+'PJa'
 
 /;
 

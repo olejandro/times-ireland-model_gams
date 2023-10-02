@@ -7,11 +7,11 @@ $SET SCENARIO_NAME 'srv_newtechs'
 
 SET UNITS_CAP
 /
-'000UNITS'
+'000units'
 'GW'
-'KUNITS'
-'MLAMPS'
-'MUNITS'
+'kUnits'
+'Mlamps'
+'Munits'
 
 /;
 
