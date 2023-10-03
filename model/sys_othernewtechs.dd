@@ -14,7 +14,7 @@ SET UNITS_CAP
 
 SET UNITS_ACT
 /
-'KT'
+'kt'
 'PJ'
 
 /;
