@@ -364,19 +364,19 @@ SET UNITS
 
 SET UNITS
 /
-'000UNITS'
-'BPKM'
-'BTKM'
-'KT'
-'KUNITS'
-'MHA'
-'MHEAD'
-'MLAMPS'
-'MLITRE'
-'MM2'
+'000units'
+'Bpkm'
+'Btkm'
+'kt'
+'kunits'
+'Mha'
+'Mhead'
+'Mlamps'
+'Mlitre'
+'Mm2'
 'Mt'
-'MTONNE'
-'MUNITS'
+'Mtonne'
+'Munits'
 'PJ'
 
 /;
