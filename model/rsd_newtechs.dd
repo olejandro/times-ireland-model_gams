@@ -20,7 +20,7 @@ SET UNITS_CAP
 
 SET UNITS_ACT
 /
-'000UNITS'
+'000units'
 'PJ'
 
 /;
