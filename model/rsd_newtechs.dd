@@ -13,14 +13,14 @@ SET UNITS_COM
 
 SET UNITS_CAP
 /
-'000units'
+'000UNITS'
 'GW'
 
 /;
 
 SET UNITS_ACT
 /
-'000units'
+'000UNITS'
 'PJ'
 
 /;

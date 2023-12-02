@@ -7,7 +7,7 @@ $SET SCENARIO_NAME 'rsd-retrofit'
 
 SET UNITS_CAP
 /
-'000units'
+'000UNITS'
 
 /;
 

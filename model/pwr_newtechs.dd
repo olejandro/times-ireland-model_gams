@@ -7,7 +7,7 @@ $SET SCENARIO_NAME 'pwr_newtechs'
 
 SET UNITS_COM
 /
-'kt'
+'KT'
 
 /;
 
@@ -31,7 +31,7 @@ SET COM_TMAP
 
 SET COM_UNIT
 /
-'IE'.'PWRCO2S'.'kt'
+'IE'.'PWRCO2S'.'KT'
 
 /;
 

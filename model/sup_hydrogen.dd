@@ -7,7 +7,7 @@ $SET SCENARIO_NAME 'sup_hydrogen'
 
 SET UNITS_CAP
 /
-'PJa'
+'PJA'
 
 /;
 

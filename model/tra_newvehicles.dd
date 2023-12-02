@@ -7,15 +7,15 @@ $SET SCENARIO_NAME 'tra_newvehicles'
 
 SET UNITS_CAP
 /
-'000_Units'
-'PJa'
+'000_UNITS'
+'PJA'
 
 /;
 
 SET UNITS_ACT
 /
-'Bpkm'
-'Btkm'
+'BPKM'
+'BTKM'
 'PJ'
 
 /;
